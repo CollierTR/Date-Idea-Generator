@@ -1,0 +1,90 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Lobster&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(165, 161, 168);
+    color: #222222;
+    text-shadow: 0px 0px 2px white;
+    font-family: 'DM Serif Display', serif;}
+
+.background-img {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(2017-09-14-06-51-31.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.main-container {
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: hsla(0, 0%, 97%, 0.226);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    padding: 0 1em;
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+}
+
+#idea {
+    font-size: 1.4em;
+    font-weight: bold;
+    text-align: center;
+    padding: 0 1em;
+}
+
+#button {
+    font-size: 2em;
+    background-color: #4BB90C;
+    padding: .5em 1em;
+    border-radius: .8em;
+    display: block;
+    margin: 0 auto;
+    color: #222222;
+    border: #222222 2px solid;
+    
+}
+
+.display-text {
+    height: 30%;
+    width: 75%;
+    display: grid;
+    place-content: center;
+}
+
+.button-and-counter {
+    width: 75%;
+}
+
+#counter {
+    margin-top: 2em;
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 700px) {
+    .main-container {
+        width: 100%;
+        background-color: hsla(0, 0%, 97%, 0.226);
+    }
+
+    .background-img {
+    }
+}
